@@ -10,6 +10,11 @@ This API registers a user with First Name, Last Name, Email Id, Password, a uniq
 - Update MONGO_USER, MONGO_PASSWORD and MONGO_DB parameters in nodemon.json
 - Run "npm start"
 
+## MongoDB Tables
+- users (firstName, lastName, email, password)
+- organizations (name, location)
+- registrations (employeeId, userRef, organizationRef, createdAt, updatedAt)
+
 ## Sample Queries
 
 ### Create User
