@@ -117,12 +117,7 @@ query {
 ### Search Registrations by FirstName, LastName and EmployeeId
 ### Sort Registrations either by FirstName, LastName, Email, EmployeeId or OrganizationName
 ### Paginate using PageSize and PageIndex
-### SortInput
-#### Possible field values: firstName, lastName, email, employeeId, organizationName
-#### Possible order values: 1, -1
-### PaginationInput
-#### Default size value: 10
-#### Default index value: 1
+
 query {
 	filterRegistrations(filterInput: {
     firstName: "pravin",
@@ -155,5 +150,12 @@ query {
     updatedAt
   }
 }
+
+### SortInput
+#### Possible field values: firstName, lastName, email, employeeId, organizationName
+#### Possible order values: 1, -1
+### PaginationInput
+#### Default size value: 10
+#### Default index value: 1
 
 ## Contact hadawalepravin@gmail.com for any queries
