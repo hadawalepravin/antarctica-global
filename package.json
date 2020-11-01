@@ -1,0 +1,26 @@
+{
+  "name": "antarctica-global",
+  "version": "1.0.0",
+  "description": "This API registers a user with First Name, Last Name, Email Id, Password, a unique employeeId and Organization Name.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "hadawalepravin@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.15",
+    "underscore": "^1.11.0",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
