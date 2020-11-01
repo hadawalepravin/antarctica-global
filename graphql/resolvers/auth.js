@@ -23,10 +23,6 @@ module.exports = {
 
   // POST new user
   createUser: async (args, req) => {
-    if (!req.isAuth) {
-      throw new Error('Unauthenticated!');
-    }
-
     try {
 
       // Check if user already exists with the input email
